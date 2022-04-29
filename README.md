@@ -1,2 +1,2 @@
 # MemoryGame
-Simple card based memory game
+Simple card based memory game with Bootstrap and AngularJS
