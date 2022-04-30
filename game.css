@@ -6,6 +6,9 @@
   padding-bottom: 4em;
   margin-top: 2em;
   margin-bottom: 1em;
+  -moz-perspective: 1000;
+  -webkit-perspective: 1000;
+  perspective: 1000;
 }
 .cardsContainer .card {
   width: 2em;
@@ -16,6 +19,10 @@
   margin: 0.1em;
   margin-left: 0.36em;
   margin-bottom: 0.36em;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+ 
+  
 }
 .cardsContainer .card i {
   margin-top: 0.7em;
@@ -24,6 +31,15 @@
   background-color: white;
   border: 1px solid #ddd;
   border-radius: 0.2em;
+  -moz-transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -moz-transition: all .25s linear;
+  -webkit-transition: all .25s linear;
+  transition: all .25s linear;
+  -moz-transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
 
 .cardsContainer .sampleCard {

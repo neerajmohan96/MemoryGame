@@ -63,7 +63,7 @@ app.controller("GameCtrl", function ($scope, $timeout, $window) {
     if ($scope.matchedCardsArray.length === $scope.cardsArray.length) {
       $scope.activeGame = false;
       console.log($scope.activeGame);
-      console.log("acabou ");
+      console.log("Working ");
     } else {
       $scope.activeGame = true;
     }
